@@ -12,6 +12,8 @@
 8. All of the numeric types are signed and reserve one of their bits to cover a negative range. For example, instead of `byte` covering 0 to 255, it actually covers -128 to 127
 9. A float requires the letter `f` or `F` foloowing the number so java knows it is a float. Without an `f` or `F`, java interprets a decimal value as a `double`.
 10. A `long` requires the letter `l` or `L` following the number so java knows it is a `long`. Wihtou an `l` or `L`, java interprets a number without a decimal point as an int in most scenarios. 
+11. A reference can be assigned to another object of the same or compatible type.
+12. A reference cnan be assigned to a new object using the `new` keyword.
 
 ## Command tips
 - run `javac -d classes <file-paths>` to compile all the files to the `classses` directory.
